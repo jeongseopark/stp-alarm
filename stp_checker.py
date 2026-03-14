@@ -8,11 +8,11 @@ import os
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-# 감시할 사이트 리스트 (공홈 및 주요 한국 OTA)
+# 감시할 사이트 리스트 (2024 최신 주소 반영)
 URLS = {
-    "SBB(공식)": "https://www.sbb.ch/en/leisure-holidays/inspiration/international-guests/swiss-travel-pass.html",
-    "클룩(Klook)": "https://www.klook.com/ko/activity/1130-swiss-travel-pass/",
-    "마이리얼트립": "https://www.myrealtrip.com/offers/25732"
+    "SBB(공식)": "https://www.sbb.ch/en/offers/swiss-travel-pass",
+    "클룩(Klook)": "https://www.klook.com/ko/activity/11366-swiss-travel-rail-pass/",
+    "마이리얼트립": "https://experiences.myrealtrip.com/products/3852623"
 }
 
 # 잡고 싶은 할인 키워드 (영어/한국어 믹스)
